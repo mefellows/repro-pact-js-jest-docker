@@ -1,0 +1,32 @@
+{
+  "consumer": {
+    "name": "some-consumer"
+  },
+  "provider": {
+    "name": "some-provider"
+  },
+  "messages": [
+    {
+      "description": "a valid item record",
+      "providerStates": [
+
+      ],
+      "contents": {
+        "data": {
+          "dummy": 1
+        }
+      },
+      "matchingRules": {
+        "body": {
+        }
+      },
+      "metaData": {
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  }
+}
