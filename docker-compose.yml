@@ -1,0 +1,9 @@
+version: '3.2'
+services:
+  pact:
+    build:
+      context: .
+      dockerfile: 'Dockerfile'
+    volumes:
+      - .:/app
+    working_dir: '/app'

@@ -1,3 +1,0 @@
-# Jest Pact Docker example
-
-Simply run `docker build .` and it should run the test.

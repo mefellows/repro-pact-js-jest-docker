@@ -7,12 +7,11 @@ RUN  apk --no-cache add ca-certificates wget bash \
   && wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.29-r0/glibc-2.29-r0.apk \
   && apk add glibc-2.29-r0.apk
 
-WORKDIR /app
+#WORKDIR /app
+#COPY package*.json /app/
 
-COPY package*.json /app/
+#RUN npm install
 
-RUN npm install
+#COPY . /app/
 
-COPY . /app/
-
-RUN npm t
+#RUN npm t
